@@ -1,0 +1,10 @@
+$prime-color: #A52838;
+$second-color: #fff;
+$second-soft-color: #baa;
+$active-color: #a11;
+
+@mixin transition{
+  transition-property: color, background-color, border-color, transform;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}

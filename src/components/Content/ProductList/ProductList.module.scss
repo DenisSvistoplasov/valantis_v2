@@ -1,0 +1,13 @@
+.wrapper {
+  flex-grow: 1;
+  overflow-y: hidden;
+}
+
+.list {
+  display: grid;
+  grid-template: 1fr / repeat(auto-fill, minmax(180px, max-content));
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
