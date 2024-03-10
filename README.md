@@ -7,5 +7,9 @@ Valantis test app
 - SASS module
 - TypeScript
 
+### Version features
+- Complex filter
+- Long boot
+
 ### Deploy
 https://denissvistoplasov.github.io/valantis_v2/
